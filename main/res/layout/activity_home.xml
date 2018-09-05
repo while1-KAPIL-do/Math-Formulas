@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swipe_refresh">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/darkGray"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_horizontal"
+        tools:context="com.fundu.kapil.myapp.Home_Activity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/lower_rounded_container">
+                </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="450dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+                    <Button
+                        android:layout_margin="10dp"
+                        android:text="Tag 1"
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag1"
+                        android:onClick="btn_tag1"
+                        android:background="@drawable/rounded_container"/>
+
+                    <Button
+                        android:text="Tag 2"
+                        android:layout_margin="10dp"
+
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:onClick="btn_tag2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag2"
+                        android:background="@drawable/rounded_container"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:weightSum="1">
+                    <Button
+                        android:text="Tag 3"
+                        android:layout_margin="10dp"
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag3"
+                        android:onClick="btn_tag3"
+                        android:background="@drawable/rounded_container" />
+                    <Button
+                        android:layout_margin="10dp"
+                        android:text="Tag 4"
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag4"
+                        android:onClick="btn_tag4"
+                        android:layout_weight="0.93"
+                        android:background="@drawable/rounded_container"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+                    <Button
+                        android:text="Tag 5"
+                        android:layout_margin="10dp"
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag5"
+                        android:onClick="btn_tag5"
+                        android:background="@drawable/rounded_container"/>
+
+                    <Button
+                        android:text="Tag 6"
+
+                        android:layout_margin="10dp"
+                        android:width="150dp"
+                        android:height="150dp"
+                        android:onClick="btn_tag6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_tag6"
+                        android:background="@drawable/rounded_container" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="0.00">
+                    <Button
+                        android:layout_margin="10dp"
+                        android:text="View Data"
+
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/view_all_tag_data"
+                        android:onClick="btn_showAll"
+                        android:background="@drawable/rounded_container" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    <Button
+        android:text="ADD"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/add"
+        android:onClick="do_btn_add"
+        android:background="@drawable/upper_rounded_container" />
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

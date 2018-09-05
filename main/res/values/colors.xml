@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#525b56</color>
+    <color name="colorPrimaryDark">#525b56</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+    <color name="black">#040c0e</color>
+    <color name="darkGray">#132226</color>
+    <color name="gray">#525b56</color>
+    <color name="orange">#be9063</color>
+    <color name="lightGray">#a4978e</color>
+</resources>

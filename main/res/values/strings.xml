@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string-array name="tag_list">
+        <item >Trignometry</item>
+        <item>Diffrential</item>
+        <item>Intigration</item>
+        <item>Probability</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_tag"
+    tools:context=".Tag_Activity">
+
+    <TextView
+        android:text="Tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView_tag_head"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="34sp"
+        android:background="@drawable/lower_rounded_container"
+        android:fontFamily="sans-serif-smallcaps" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="80sp"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
