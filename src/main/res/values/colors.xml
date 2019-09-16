@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a1a7a8</color>
+    <color name="colorPrimaryDark">#5e717d</color>
+    <color name="colorAccent">#ff4081</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="darkgray">#6c6c6c</color>
+
+
+
+    <color name="network_gray">#a1a7a8</color>
+    <color name="smoky_blue">#5e717d</color>
+    <color name="aqua_sphere">#9db0b5</color>
+    <color name="origami_white">#e6e2db</color>
+    <color name="lazy_gray">#bfc1c4</color>
+
+
+    <color name="text_icon_button">#ffffff</color>
+    <color name="hint_text">#a8a2d7</color>
+    <color name="dividers">#918acd</color>
+    <color name="primary_button">#ffffff</color>
+    <color name="background">#8278c8</color>
+    <color name="background_dark">#6f6588</color>
+
+
+
+
+
+</resources>

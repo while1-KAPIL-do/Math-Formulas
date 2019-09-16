@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_tag"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/app_name"
+        android:visible="false"
+        yourapp:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_data"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/app_name"
+        android:visible="false"
+        yourapp:showAsAction="ifRoom"/>
+</menu>
